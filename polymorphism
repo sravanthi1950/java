@@ -1,0 +1,22 @@
+class Vehicle
+{
+public void speed()
+{
+System.out.println("Vehicle speed=60km/h");
+}
+}
+class Bike extends Vehicle
+{
+public void speed()
+{
+System.out.println("Bike speed=40km/h");
+}
+}
+class Experiment5
+{
+public static void main(String args[])
+{
+Vehicle obj=new Bike();
+obj.speed();
+}
+}
