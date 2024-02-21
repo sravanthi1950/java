@@ -1,0 +1,9 @@
+package mypack;
+public class MyMath
+{
+public void sum(int a,int b)
+{
+int c=a+b;
+System.out.println("Addition="+c);
+}
+}
