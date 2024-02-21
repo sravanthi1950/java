@@ -1,0 +1,15 @@
+import mypack.MyMath; 
+import java.util.Scanner; 
+public class Experiment6
+{
+public static void main(String args[])
+{
+MyMath obj = new MyMath(); 
+Scanner sc=new Scanner(System.in); 
+int n1,n2;
+System.out.println("Enter two numbers\n"); 
+n1=sc.nextInt();
+n2=sc.nextInt(); 
+obj.sum(n1,n2);
+}
+}
